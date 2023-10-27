@@ -1,0 +1,28 @@
+.error {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.error h1 {
+  font-size: 70px;
+}
+.error p {
+  font-size: 30px;
+  margin: 20px 0px;
+}
+.error button {
+  width: 180px;
+  height: 45px;
+  border-radius: 5px;
+  border: 2px solid #fff;
+  background-color: transparent;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.2s ease;
+  &:hover{
+    background-color: #ffffff56;
+  }
+}

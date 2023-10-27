@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap");
+
+.login {
+  position: relative;
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+}
+.login-logo {
+  position: absolute;
+  top: 20px;
+  left: 40px;
+  display: flex;
+  align-items: center;
+}
+.login-logo img {
+  width: 70px;
+  height: 65px;
+}
+.login-logo h1 {
+  font-size: 20px;
+  margin-left: 5px;
+}
+.text-container {
+  position: relative;
+  margin-right: 120px;
+}
+.text-container h1 {
+  font-size: 60px;
+}
+.text-container h3 {
+  font-size: 35px;
+}
+.text-container p {
+  font-size: 17px;
+  margin-top: 50px;
+}
+.text-container p a {
+  text-decoration: none;
+  color: #4d47c3;
+  margin-left: 10px;
+}
+.text-container img {
+  position: absolute;
+  right: -180px;
+  top: 100px;
+}
+.login-container {
+  width: 370px;
+  height: 530px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 120px;
+}
+.login-container p {
+  font-size: 16px;
+  color: #b5b5b5;
+  text-align: center;
+}
+.login-container h2 {
+  font-size: 30px;
+  font-weight: normal;
+}
+.inputBx {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.show-hide {
+  position: absolute;
+  top: 119px;
+  right: 25px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.show-hide i {
+  color: #a7a3ff;
+  font-size: 16px;
+}
+.inputBx input {
+  width: 100%;
+  height: 55px;
+  background-color: #f0efff;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+  padding-left: 25px;
+  font-size: 15px;
+  color: #8d8d8d;
+  margin: 15px 0px;
+  transition: 0.2s ease;
+  &:focus {
+    box-shadow: rgba(255, 255, 255, 0.15) 0px 48px 100px 0px;
+  }
+  &::placeholder {
+    color: #a7a3ff;
+  }
+}
+.inputBx p {
+  text-align: end;
+  color: #b0b0b0;
+  cursor: pointer;
+}
+.login-submit {
+  width: 100%;
+  height: 45px;
+  background-color: #4d47c3;
+  border: none;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  border-radius: 6px;
+  cursor: pointer;
+  box-shadow: #4d47c384 0px 4px 61px 0px;
+  transition: 0.2s ease;
+  &:hover {
+    opacity: 90%;
+  }
+}
+.social-medias {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.social-medias img {
+  width: 41px;
+  height: 41px;
+  margin: 0px 7px;
+  cursor: pointer;
+  transition: 0.2s ease;
+  &:hover {
+    opacity: 60%;
+  }
+}
+@media (max-width: 1000px) {
+  .text-container{
+    display: none;
+  }
+  .login-container{
+    margin: 0;
+  }
+}
